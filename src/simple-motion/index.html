@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Simple Motions</title>
+</head>
+
+<body>
+    <h1>Simple animations examples</h1>
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    <h2>
+        animation: line 3s linear;
+    </h2>
+    <section class="field">
+        <div class="square linear"></div>
+    </section>
+    <h2>
+        animation: line 3s linear 4;
+    </h2>
+    <section class="field">
+        <div class="square iteration"></div>
+    </section>
+    <h2>
+        animation: line 5s linear reverse;
+    </h2>
+    <section class="field">
+        <div class="square reverse"></div>
+    </section>
+    <h2>
+        animation: line 3s linear 3s;
+    </h2>
+    <section class="field">
+        <div class="square delay"></div>
+    </section>
+    <h2>
+        animation: line 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    </h2>
+    <section class="field">
+        <div class="square bezier"></div>
+    </section>
+    <h2>
+        animation: line 5s linear forwards;
+    </h2>
+    <section class="field">
+        <div class="square forwards"></div>
+    </section>
+</body>
+
+</html>

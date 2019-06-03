@@ -1,0 +1,60 @@
+html,
+body {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.field {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+.square {
+    background: coral;
+
+    position: absolute;
+    width: 100px;
+    height: 100%;
+
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+@keyframes line {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 300px;
+    }
+}
+
+.linear {
+    animation: line 5s linear;
+}
+
+.iteration {
+    animation: line 3s linear 4;
+}
+
+.reverse {
+    animation: line 5s linear reverse;
+}
+
+.delay {
+    animation: line 3s linear 3s;
+
+}
+
+.bezier {
+    animation: line 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.forwards {
+    animation: line 5s linear forwards;
+}
