@@ -1,6 +1,6 @@
 {
-    "liveServer.settings.root": "/src/settings.json"
-    // "liveServer.settings.root": "/src/settings.json"
+    // "liveServer.settings.root": "/src/simple-motion"
+    "liveServer.settings.root": "/src/track"
     // "liveServer.settings.root": "/src/settings.json"
     // "liveServer.settings.root": "/src/settings.json"
 }

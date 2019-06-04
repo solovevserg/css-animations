@@ -1,0 +1,41 @@
+body {
+    position: relative;
+}
+
+.square {
+    position: absolute;
+    padding: 20px;
+    color: #fff;
+}
+
+@keyframes square {
+
+    0%,
+    100% {
+        left: 0;
+        top: 0;
+        background: red;
+    }
+
+    25% {
+        left: 300px;
+        top: 0;
+        background: rgb(0, 255, 0);
+    }
+
+    50% {
+        left: 300px;
+        top: 300px;
+        background: blue;
+    }
+
+    75% {
+        left: 0;
+        top: 300px;
+        background: yellow;
+    }
+}
+
+.square {
+    animation: square 8s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
+}
