@@ -3,5 +3,6 @@
     // "liveServer.settings.root": "/src/track"
     // "liveServer.settings.root": "/src/background"
     // "liveServer.settings.root": "/src/transition"
-    "liveServer.settings.root": "/src/aos"
+    // "liveServer.settings.root": "/src/aos"
+    "liveServer.settings.root": "/src/animate"
 }
