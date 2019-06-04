@@ -1,0 +1,83 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url('/img/sea.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    font-family: Roboto;
+    font-weight: 100;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.headline {
+    padding: 50px;
+    padding-top: 40vh;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 100px;
+    margin: 0;
+}
+
+@keyframes flight {
+    0% {
+        top: 0;
+        left: -150px
+    }
+
+    50% {
+        top: 200px
+    }
+
+    100% {
+        top: 0;
+        left: 120%;
+    }
+}
+
+.gull {
+    position: fixed;
+    height: 150px;
+    left: -100%;
+    filter: invert(100%);
+}
+
+.gull-1 {
+    top: 100px;
+    animation: flight 30s cubic-bezier(0.075, 0.82, 0.165, 1) 3s infinite;
+}
+
+.gull-2 {
+    animation: flight 25s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+    height: 100px;
+}
+
+.gull-3 {
+    height: 50px;
+    animation: flight 35s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+}
+
+.gull-4 {
+    height: 50px;
+    animation: flight 30s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
+
+.gull-5 {
+    transform: translateY(100px);
+    height: 30px;
+    animation: flight 50s cubic-bezier(0.6, 0.04, 0.98, 0.335) infinite;
+}
